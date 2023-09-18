@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER  */
+header{
+    min-height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: hsl(194.74deg 53.27% 79.02%);
+    padding: 10px;
+}
+
+.logo{
+    background-color: hsl(42.81deg 73.71% 49.22%);
+    border: 1px dashed black;
+    padding: 0.5rem; 
+    width: 15%;
+}
+
+nav{
+    padding: 0 200px;
+    border: 1px dashed black;
+    width: 40%;
+    
+}
+ul{
+    display: flex;
+    height: 100%;
+    
+}
+li{
+    margin: 0.5rem;
+    text-decoration: none;
+    list-style-type: none;   
+}
+.login{
+    width: 15%;
+    background-color: hsl(42.81deg 73.71% 49.22%);
+    text-align: end;
+    padding: 0.5rem;
+    border: 1px dashed black;
+}
