@@ -44,3 +44,39 @@ li{
     padding: 0.5rem;
     border: 1px dashed black;
 }
+.dark-blue-container{
+    min-height: 400px;
+    background-color: hsl(240deg 100% 27.25%);
+    justify-content: center;
+    display: flex;
+    padding: 2rem 0;
+}
+.dark-pink{
+    min-height: 200px;
+    width: 50%;
+    background-color: hsl(300deg 76.22% 71.96%);
+}
+.white{
+    min-height: 500px;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+.light-blue{
+    min-height: 350px;
+    background-color: hsl(209.47deg 100% 55.69%);
+    width: 45%;
+}
+.pink{
+    min-height: 350px;
+    background-color:hsl(350.32deg 100% 87.84%);
+    width: 35%;
+}
+.grey{
+    min-height: 500px;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background-color: hsl(0deg 0% 82.75%);
+}
